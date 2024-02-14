@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-14T19:40:07.391Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="rLji3Zpwbwvq3tlL_sNI" version="23.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-14T22:49:49.270Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="77D0vIvoGdxs8SbBz_Hk" version="23.1.2" type="github">
   <diagram name="Page-1" id="QUF3VgHteG3-aB7-RYmX">
     <mxGraphModel dx="786" dy="703" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -16,47 +16,27 @@
         <mxCell id="ED84nd0-sU7mBFTJm2k1-7" value="&lt;u style=&quot;font-weight: bold;&quot;&gt;C--Form 2 (Team)&lt;br&gt;&amp;nbsp;&amp;nbsp;&lt;/u&gt;Primary Care Team&lt;br&gt;Non-Primary Team&lt;br&gt;&lt;br&gt;&lt;b style=&quot;text-decoration-line: underline;&quot;&gt;Team Name&lt;/b&gt;&lt;br&gt;Text" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="150" y="10" width="130" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="ED84nd0-sU7mBFTJm2k1-13" value="&lt;b style=&quot;text-decoration-line: underline;&quot;&gt;Form 3 (Primary Care)&lt;/b&gt;&lt;br&gt;Report Access&lt;br&gt;-Restrict Consults&lt;br&gt;-Non Restrict Consults&lt;br&gt;-Auto-Assigned Team to Clinic&lt;br&gt;-Auto- Discharged From Team to Clinic" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
-          <mxGeometry x="450" y="10" width="130" height="130" as="geometry" />
+        <mxCell id="hk9qSbJ28wwmTuGZf1NL-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ED84nd0-sU7mBFTJm2k1-13" target="hk9qSbJ28wwmTuGZf1NL-7">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ED84nd0-sU7mBFTJm2k1-15" value="&lt;b style=&quot;text-decoration-line: underline;&quot;&gt;Form 4 (Non-Primary Care)&lt;br&gt;&lt;/b&gt;Service&lt;br&gt;New Team&lt;br&gt;TPA: Y/N&lt;br&gt;OIF OEF Needed : Y/N&lt;br&gt;Restrict Consults&lt;br&gt;Auto-Assigned Team to Clinic&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Auto- Discharged From Team to Clinic" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
-          <mxGeometry x="180" y="210" width="180" height="180" as="geometry" />
+        <mxCell id="ED84nd0-sU7mBFTJm2k1-13" value="&lt;b style=&quot;text-decoration-line: underline;&quot;&gt;Form 3 (Primary Care)&lt;br&gt;&lt;/b&gt;&lt;br&gt;&lt;b&gt;&lt;u&gt;Report Access&lt;/u&gt;&lt;/b&gt;&lt;br&gt;Yes/No&lt;br&gt;&lt;b style=&quot;text-decoration-line: underline;&quot;&gt;Report Access Type&lt;/b&gt;&lt;br&gt;Options&amp;nbsp;&lt;br&gt;&lt;u style=&quot;font-weight: bold;&quot;&gt;&lt;br&gt;&lt;/u&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="450" width="130" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="ED84nd0-sU7mBFTJm2k1-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ED84nd0-sU7mBFTJm2k1-16" edge="1">
+        <mxCell id="hk9qSbJ28wwmTuGZf1NL-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#FF3333;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="160" y="250" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ED84nd0-sU7mBFTJm2k1-16" value="IF/Logic" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="10" y="250" width="100" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="ED84nd0-sU7mBFTJm2k1-59" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ED84nd0-sU7mBFTJm2k1-24" target="ED84nd0-sU7mBFTJm2k1-15" edge="1">
-          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="120" y="190" as="sourcePoint" />
+            <mxPoint x="350" y="60" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="405" y="270" />
-              <mxPoint x="405" y="290" />
+              <mxPoint x="120" y="180" />
+              <mxPoint x="350" y="180" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="ED84nd0-sU7mBFTJm2k1-60" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;" parent="1" edge="1">
-          <mxGeometry width="100" relative="1" as="geometry">
-            <mxPoint x="630" y="269.5" as="sourcePoint" />
-            <mxPoint x="680" y="269.5" as="targetPoint" />
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ED84nd0-sU7mBFTJm2k1-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ED84nd0-sU7mBFTJm2k1-24" target="ED84nd0-sU7mBFTJm2k1-64" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="100" y="470" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ED84nd0-sU7mBFTJm2k1-62" value="&lt;u style=&quot;font-weight: bold;&quot;&gt;Supervisor&lt;/u&gt;&lt;br&gt;Approved&lt;br&gt;Disapproved" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
-          <mxGeometry x="690" y="230" width="120" height="100" as="geometry" />
+        <mxCell id="ED84nd0-sU7mBFTJm2k1-15" value="&lt;b style=&quot;text-decoration-line: underline;&quot;&gt;Form 4 (Non-Primary Care)&lt;br&gt;&lt;/b&gt;Service&lt;br&gt;&lt;br&gt;&lt;b&gt;&lt;u&gt;Team&lt;/u&gt;&lt;/b&gt;&lt;br&gt;Team Name" style="whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#f00505;" parent="1" vertex="1">
+          <mxGeometry x="10" y="190" width="130" height="130" as="geometry" />
         </mxCell>
         <mxCell id="ED84nd0-sU7mBFTJm2k1-64" value="&lt;b style=&quot;text-decoration-line: underline;&quot;&gt;PCMM Coordinator&lt;/b&gt;&lt;br&gt;Approved&amp;nbsp;&lt;br&gt;Disapproved&amp;nbsp;" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
-          <mxGeometry x="10" y="330" width="140" height="140" as="geometry" />
+          <mxGeometry x="520" y="420" width="140" height="140" as="geometry" />
         </mxCell>
         <mxCell id="ED84nd0-sU7mBFTJm2k1-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="ED84nd0-sU7mBFTJm2k1-7" target="ED84nd0-sU7mBFTJm2k1-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -73,17 +53,65 @@
         <mxCell id="f7CrRyMuiME1zi57L-nT-7" value="IF/Logic &lt;br&gt;Yes/No" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="330" y="30" width="55" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="f7CrRyMuiME1zi57L-nT-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ED84nd0-sU7mBFTJm2k1-62" target="ED84nd0-sU7mBFTJm2k1-24" edge="1">
+        <mxCell id="hk9qSbJ28wwmTuGZf1NL-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#f20707;" edge="1" parent="1" source="ED84nd0-sU7mBFTJm2k1-24" target="ED84nd0-sU7mBFTJm2k1-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hk9qSbJ28wwmTuGZf1NL-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#f20707;" edge="1" parent="1" source="ED84nd0-sU7mBFTJm2k1-24" target="hk9qSbJ28wwmTuGZf1NL-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ED84nd0-sU7mBFTJm2k1-24" value="&lt;b style=&quot;text-decoration-line: underline;&quot;&gt;Report Access&lt;/b&gt;&lt;br&gt;Y/N" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#ed0c0c;" parent="1" vertex="1">
+          <mxGeometry x="170" y="225" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hk9qSbJ28wwmTuGZf1NL-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="hk9qSbJ28wwmTuGZf1NL-7" target="ED84nd0-sU7mBFTJm2k1-64">
           <mxGeometry relative="1" as="geometry">
+            <mxPoint x="690" y="520" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="750" y="470" />
+              <mxPoint x="750" y="328" />
+              <mxPoint x="730" y="328" />
+              <mxPoint x="730" y="490" />
             </Array>
-            <mxPoint x="750" y="330" as="sourcePoint" />
-            <mxPoint x="150" y="470" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ED84nd0-sU7mBFTJm2k1-24" value="&lt;b style=&quot;text-decoration-line: underline;&quot;&gt;Report Access&lt;/b&gt;&lt;br&gt;Y/N" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="450" y="250" width="180" height="60" as="geometry" />
+        <mxCell id="hk9qSbJ28wwmTuGZf1NL-7" value="&lt;b style=&quot;text-decoration-line: underline;&quot;&gt;Form 3 (Primary Care)&lt;/b&gt;&lt;br&gt;&lt;b&gt;&lt;u&gt;Clinical Team Assignment&lt;/u&gt;&lt;/b&gt;&lt;br&gt;Options&lt;br&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="620" y="5" width="130" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="hk9qSbJ28wwmTuGZf1NL-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#e90101;" edge="1" parent="1" source="hk9qSbJ28wwmTuGZf1NL-17" target="hk9qSbJ28wwmTuGZf1NL-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hk9qSbJ28wwmTuGZf1NL-17" value="&lt;b style=&quot;text-decoration-line: underline;&quot;&gt;Form&amp;nbsp; (Non-Primary Care)&lt;br&gt;&lt;/b&gt;&lt;br&gt;&lt;b&gt;&lt;u&gt;Report Access&lt;/u&gt;&lt;/b&gt;&lt;br&gt;Yes/No&lt;br&gt;&lt;b style=&quot;text-decoration-line: underline;&quot;&gt;Report Access Type&lt;/b&gt;&lt;br&gt;Options&amp;nbsp;&lt;br&gt;&lt;u style=&quot;font-weight: bold;&quot;&gt;&lt;br&gt;&lt;/u&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#f10909;" vertex="1" parent="1">
+          <mxGeometry x="320" y="195" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="hk9qSbJ28wwmTuGZf1NL-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF1940;" edge="1" parent="1" source="hk9qSbJ28wwmTuGZf1NL-20" target="hk9qSbJ28wwmTuGZf1NL-22">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="535" y="165" />
+              <mxPoint x="620" y="165" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hk9qSbJ28wwmTuGZf1NL-20" value="&lt;b style=&quot;text-decoration-line: underline;&quot;&gt;Form&amp;nbsp; (Non-Primary Care)&lt;/b&gt;&lt;br&gt;&lt;b&gt;&lt;u&gt;Clinical Team Assignment&lt;/u&gt;&lt;/b&gt;&lt;br&gt;Options" style="whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#f50505;" vertex="1" parent="1">
+          <mxGeometry x="470" y="185" width="130" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="hk9qSbJ28wwmTuGZf1NL-22" value="&lt;b style=&quot;text-decoration-line: underline;&quot;&gt;Form (Non-Primary Care)&lt;/b&gt;&lt;br&gt;&lt;u style=&quot;&quot;&gt;&lt;b&gt;Group Affiliations&lt;/b&gt;&lt;br&gt;&lt;/u&gt;Options" style="whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="625" y="185" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="hk9qSbJ28wwmTuGZf1NL-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ED84nd0-sU7mBFTJm2k1-15" target="ED84nd0-sU7mBFTJm2k1-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hk9qSbJ28wwmTuGZf1NL-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="hk9qSbJ28wwmTuGZf1NL-17" target="hk9qSbJ28wwmTuGZf1NL-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hk9qSbJ28wwmTuGZf1NL-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#ec0941;" edge="1" parent="1" source="ED84nd0-sU7mBFTJm2k1-62" target="ED84nd0-sU7mBFTJm2k1-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ED84nd0-sU7mBFTJm2k1-62" value="&lt;u style=&quot;font-weight: bold;&quot;&gt;Supervisor&lt;/u&gt;&lt;br&gt;Approved&lt;br&gt;Disapproved" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="100" y="390" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="hk9qSbJ28wwmTuGZf1NL-39" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=1;entryDx=0;entryDy=0;strokeColor=#fb0909;" edge="1" parent="1" target="hk9qSbJ28wwmTuGZf1NL-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="190" y="390" as="sourcePoint" />
+            <mxPoint x="240" y="340" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
