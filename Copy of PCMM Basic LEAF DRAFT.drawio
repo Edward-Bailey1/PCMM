@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-15T20:21:57.516Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="TZZd0huJvzi24bkiJq8H" version="23.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-15T21:40:18.171Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="dJaxyXwvvXk72TlcBLpf" version="23.1.4" type="github">
   <diagram name="Page-1" id="QUF3VgHteG3-aB7-RYmX">
     <mxGraphModel dx="1026" dy="703" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -60,14 +60,16 @@
         <mxCell id="ED84nd0-sU7mBFTJm2k1-24" value="&lt;b style=&quot;text-decoration-line: underline;&quot;&gt;Report Access&lt;/b&gt;&lt;br&gt;Y/N" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#ed0c0c;" parent="1" vertex="1">
           <mxGeometry x="170" y="225" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="hk9qSbJ28wwmTuGZf1NL-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;" parent="1" source="hk9qSbJ28wwmTuGZf1NL-7" target="ED84nd0-sU7mBFTJm2k1-64" edge="1">
+        <mxCell id="hk9qSbJ28wwmTuGZf1NL-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.846;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="hk9qSbJ28wwmTuGZf1NL-7" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="690" y="520" as="targetPoint" />
+            <mxPoint x="860" y="340" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="750" y="328" />
-              <mxPoint x="730" y="328" />
-              <mxPoint x="730" y="490" />
+              <mxPoint x="960" y="150" />
+              <mxPoint x="960" y="258" />
+              <mxPoint x="810" y="258" />
+              <mxPoint x="810" y="340" />
             </Array>
+            <mxPoint x="960" y="80" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="hk9qSbJ28wwmTuGZf1NL-7" value="&lt;b style=&quot;text-decoration-line: underline;&quot;&gt;Form (Primary Care)&lt;/b&gt;&lt;br&gt;&lt;b&gt;&lt;u&gt;Clinical Team Assignment&lt;/u&gt;&lt;/b&gt;&lt;br&gt;Options" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
@@ -82,8 +84,9 @@
         <mxCell id="hk9qSbJ28wwmTuGZf1NL-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF1940;" parent="1" source="hk9qSbJ28wwmTuGZf1NL-20" target="hk9qSbJ28wwmTuGZf1NL-22" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="535" y="165" />
-              <mxPoint x="620" y="165" />
+              <mxPoint x="535" y="160" />
+              <mxPoint x="620" y="160" />
+              <mxPoint x="620" y="220" />
             </Array>
           </mxGeometry>
         </mxCell>
